@@ -393,7 +393,7 @@ public class AccountGUI extends JFrame {
                                     //Getting data out from the query
                                     while (rs.next()) {
                                         st_ID = rs.getString("maxStudentID");
-                                        System.out.print("maxStudentID: " + st_ID);
+                                        //System.out.print("maxStudentID: " + st_ID);
                                     }
                                     //parsing the ID to INT and incrementing it to become the new student ID
                                     newStudentID = Integer.parseInt(st_ID);

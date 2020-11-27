@@ -8,7 +8,7 @@ public class Main {
         //AdminGUI AdGui = new AdminGUI();
        //StudentInterface SI= new StudentInterface("Test"); //Pass in username in this parameter to test
         //AdminGUI aGUI = new AdminGUI("ADDD");
-        EnrollmentGUI AGui = new EnrollmentGUI("testuser4");
+        EnrollmentGUI AGui = new EnrollmentGUI("testuser4", 2);
         //AGui.Display();
     }
 }
